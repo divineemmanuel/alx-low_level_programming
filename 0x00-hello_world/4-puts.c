@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/**
- * main - Printing Successful
+/*
+ *  main - printing "Programming is like building a multilingual puzzle"
  *
+ * this program printf "Programming is like building a multilingual puzzle"
  * Return: 0 Always (Successful Printing)
  */
 int main(void)
