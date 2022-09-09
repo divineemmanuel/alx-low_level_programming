@@ -3,7 +3,7 @@
 /**
  * main - Printing Successful
  *
- * Return: 0 (Successful Printing)
+ * Return: 0 Always (Successful Printing)
  */
 int main(void)
 {
