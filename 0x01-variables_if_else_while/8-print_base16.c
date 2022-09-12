@@ -26,7 +26,7 @@ int main(void)
 
 	{
 
-		putchar(i)
+		putchar(i);
 		i++;
 
 	}
