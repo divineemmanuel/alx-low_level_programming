@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Dertermines if the last digit of a random number is 
- * greater than or less than 5, or is 0
- * Retuen: 0 on success
+ * main - Dertermines if the last digit of a random number is
+ * greater than or less than 5, or is 0(*
+ * Retuen: 0 on (success)
  */
 int main(void)
 {
@@ -23,4 +23,3 @@ int main(void)
 	}
 	return (0);
 }
-
