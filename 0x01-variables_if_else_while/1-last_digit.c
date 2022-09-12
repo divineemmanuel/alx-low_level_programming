@@ -3,13 +3,14 @@
 #include <stdio.h>
 /**
  * main - Dertermines if the last digit of a random number is
- * greater than or less than 5, or is 0(*
- * Retuen: 0 on (success)
+ * greater than or less than 5, or is 0
+ *
+ * Return: 0 on (success)
  */
 int main(void)
 {
 	int n;
-	char last[] = 'last digit off';
+	char last[] = 'Last digit off';
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -20,6 +21,7 @@ int main(void)
 	}
 	else if (n % 10 == 0)
 		printf("less than 6 and not 0\n");
-	}
+	{
 	return (0);
+
 }
