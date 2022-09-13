@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * print_alphabet -- prints a-z
  *
  * Description: 1-alphabet.c - prints the alphabet in lowercase followed by
+ *
  * aline
  *
  * Return:void
