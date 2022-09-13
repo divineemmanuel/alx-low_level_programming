@@ -2,9 +2,10 @@
 #include <unistd.h>
 /**
  * main - entry point
+ *
  * Description: prints _putchar followed by a newline
  *
- * Return: returns 0(successful)
+ * Return: returns 0 (successful)
  *
  */
 int main(void)
