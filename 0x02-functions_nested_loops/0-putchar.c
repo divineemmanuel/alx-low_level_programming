@@ -6,7 +6,6 @@
  * main - generate a random number everytime
  *
  * execute it and print
- *
  * Return: 0 (successful)
  *
  */
