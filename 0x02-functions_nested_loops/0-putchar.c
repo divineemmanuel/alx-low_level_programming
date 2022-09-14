@@ -1,23 +1,33 @@
-#include "main.h"
-#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
- * main - entry point
- * Description: prints _putchar followed by a newline
- * Return: returns 0 (successful)
+ * main - generate a random number everytime
+ *
+ * execute it and print
+ *
+ * Return: 0 (successful)
+ *
  */
+
 int main(void)
 {
-	char charr[8] = "_putchar";
-	int i;
+	int n;
 
-	for (i = 0; i < 8; i++)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		_putchar(charr[i]);
+		printf("%d is positive\n", n);
 	}
-	_putchar('\n');
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
 	return (0);
-}
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
