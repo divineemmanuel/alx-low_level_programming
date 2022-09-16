@@ -1,17 +1,21 @@
+<<<<<<< HEAD
 #include "main.h"
+=======
+#include <stdio.h>
+>>>>>>> dce35b9076fa90b064d9ba4e16d579e28221e88e
 /**
  * print_square - Prints a squareusing the character #.
  * @size: The size of the square.
  */
 void print_square(int size)
 {
-	int inc1, inc2;
+	int height, width;
 
 	if (size > 0)
 	{
-		for (inc1 = 0; inc1 < size; inc1++)
+		for (height = 0; height < size; height++)
 		{
-			for (inc2 = 0; inc2 < (size = 1); inc2++)
+			for (width = 0; width < size; width++)
 			{
 				putchar('#');
 			}
