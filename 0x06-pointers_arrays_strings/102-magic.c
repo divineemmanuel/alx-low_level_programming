@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - write your line of code
+ * a[2] = 98
+ * Return: always 0
+ */
+
 int main(void)
 {
 int n;
@@ -8,7 +14,7 @@ int *p;
 
 a[2] = 1024;
 p = &n;
-  /*
+  /**
    * write your line of code here...
    * Remember:
    * - you are not allowed to use a
