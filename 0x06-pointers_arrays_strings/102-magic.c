@@ -1,7 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 
-int main(void)
+/**
+ * main - (char *b, int size);
+ *
+ * Return: Always 0.
+ */
 
+int main(void)
 {
 	int n;
 	int a[5];
