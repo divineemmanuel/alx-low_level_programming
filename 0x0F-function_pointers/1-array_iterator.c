@@ -2,11 +2,8 @@
 
 /**
  * array_iterator - executes a functionas parameter of each element of an array
- * 
  * @array: pointer to an int
- * 
  * @size: variable type size_t
- *
  * @action: pointer to a function that receives an int
  *
  * Return: void
