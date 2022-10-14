@@ -5,7 +5,6 @@
  *
  * @argv: pointer to the argument that enter from the user as char type
  * @argc: tell us the amount of arguments int type
- * 
  * Return: an integer with the result of a operation
  */
 int main(int argc, char *argv[])
